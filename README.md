@@ -17,3 +17,21 @@ TsFresh:     https://github.com/blue-yonder/tsfresh
 Implement two classification methods (e.g. logistic regression, SVM, KNN, decision trees and so on). Justify your decisions.
 
 Report the classification metrics: F-Score, Accuracy, Confusion Matrix. Analyze and discuss the results of each method.
+
+Dataset Description
+Files
+train.h5 - time series and labels for the training set
+test.h5 - time series for the testing set
+sample_submission.csv - the format for submission
+
+General
+ML Team
+Team Name
+This name will appear on your team's leaderboard position:
+
+Jynsordonez (You)
+Team Leader
+Mayra Ariana Medrano Juscamaita
+Member
+Jean Paul Cuzcano Ponce
+Member
