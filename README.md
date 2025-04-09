@@ -11,6 +11,7 @@ Instructions
 Analyze the features of the dataset pertinent to the problem you selected in the previous step. Review the following libraries to extract features of time series. Justify your decisions.
 
 PyTS:        https://pyts.readthedocs.io/en/latest/modules/transformation.html
+
 TsFresh:     https://github.com/blue-yonder/tsfresh
 
 Implement two classification methods (e.g. logistic regression, SVM, KNN, decision trees and so on). Justify your decisions.
