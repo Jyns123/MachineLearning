@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+mne
+pyts
+tsfresh
+h5py
