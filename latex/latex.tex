@@ -1,0 +1,91 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{caption}
+\usepackage{amsfonts}
+\usepackage{listingsutf8}
+\usepackage{xcolor}
+
+\title{EEG of Genetic Predisposition to Alcoholism}
+
+\author{
+    \IEEEauthorblockN{Jyns Ordóñez}
+    \IEEEauthorblockA{
+        UTEC\\
+        jyns.ordonez@utec.edu.pe}
+    \and
+    \IEEEauthorblockN{Mayra Medrano}
+    \IEEEauthorblockA{
+        UTEC\\
+        mayra.medrano@utec.edu.pe}
+    \and
+    \IEEEauthorblockN{Jean P. Cuzcano}
+    \IEEEauthorblockA{
+        UTEC\\
+        jean.cuzcano@utec.edu.pe}
+    \and
+    \IEEEauthorblockN{Jose Huayhua}
+    \IEEEauthorblockA{
+        UTEC\\
+        jose.huayhua@utec.edu.pe}
+}
+
+
+\lstset{ 
+  language=python, 
+  inputencoding=utf8,
+  basicstyle=\ttfamily\footnotesize, 
+  keywordstyle=\color{blue}\ttfamily,
+  stringstyle=\color{green}\ttfamily,
+  commentstyle=\color{gray}\ttfamily,
+  morecomment=[l][\color{magenta}]{\#},
+  numbers=none, 
+  numberstyle=\tiny\color{gray}, 
+  stepnumber=1, 
+  numbersep=10pt, 
+  frame=single, 
+  tabsize=4, 
+  breaklines=true, 
+  showstringspaces=false
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este estudio investiga la relación entre la predisposición genética al alcoholismo y los patrones de actividad cerebral, utilizando electroencefalografía (EEG). Se analizaron los datos de 122 participantes, divididos en dos grupos: alcohólicos y control, quienes fueron expuestos a estímulos visuales mientras se registraba la actividad cerebral a través de 64 electrodos. Los estímulos consistían en imágenes de objetos presentados en condiciones de coincidencia y no coincidencia. Se examinaron las respuestas cerebrales a estos estímulos con el fin de identificar posibles correlatos EEG que puedan estar asociados con la predisposición genética al alcoholismo. Se utilizaron técnicas de ipsum dolor sit amet, consectetur adipiscing elitipsum dolor sit amet, consectetur adipiscing elit para analizar los datos, con el objetivo de determinar la capacidad de los patrones EEG para predecir la predisposición al alcoholismo. Los resultados muestra ipsum dolor sit amet, consectetur adipiscing elitipsum dolor sit amet, consectetur adipiscing elit. Este estudio aporta una perspectiva nueva sobre cómo las características del EEG pueden usarse para comprender mejor los factores biológicos que influyen en el desarrollo de esta condición.
+\end{abstract}
+
+
+\begin{IEEEkeywords}
+EEG, Alcoholism, Genetic predisposition, Brain activity, Machine learning
+\end{IEEEkeywords}
+
+\section{Introducción}
+Entender las predisposiciones genéticas a ciertas afecciones desde una perspectiva computacional puede ser beneficiosa en entornos de atención médica y revolucionaria en lo que respecta a la predicción de enfermedades. También existe un artefacto para observar la actividad eléctrica del cerebro en tiempo real: electroencefalograma. En consecuencia, podemos rastrear cómo, utilizando estas dos perspectivas, la predisposición genética a beber se reflejaría en los patrones de actividad cerebral.
+
+Con este fin, se analiza la base de datos proveniente de un estudio que examina las correlaciones entre señales EEG y la predisposición genética al alcoholismo. Esta base contiene medidas de 64 electrodos colocados debajo del cuero cabelludo del participante y se tomaron una tasa de muestreo de 256 Hz, lo que otorga una resolución temporal muy alta. En el marco del estudio mencionado, los estímulos visuales se presentaron de dos maneras distintas: en algunos casos las imágenes eran iguales, y en otros eran diferentes, permitiendo observar cómo difería la respuesta del cerebro.
+
+Dado que los datos EEG son señales en el dominio del tiempo, se requiere preprocesar adecuadamente los datos para extraer características relevantes que permitan una clasificación eficaz entre los individuos con y sin predisposición al alcoholismo. En este proyecto se compararán modelos de clasificación y se analizarán las métricas de desempeño de los mismos. 
+
+El objetivo de este trabajo es construir un modelo basado en los patrones cerebrales registrados para clasificar correctamente a las personas según su predisposición genética al alcoholismo. Para este propósito, se aplicarán métodos de clasificación basados en el aprendizaje automático y la extracción de características específicas. Si bien no es posible determinar la predisposición genética de una persona en la vida real a partir de los patrones observados en su cerebro, al comprender mejor cómo se comporta frente a diferentes estímulos, debería tener una imagen más clara de cómo difieren los estímulos biológicos para las personas en ambos grupos, de una manera que los haga más propensos al alcoholismo.
+
+
+
+
+\section{Metodología}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Donec auctor erat ut velit tempor, id faucibus nunc lacinia. Nam id purus a purus vulputate vestibulum. Proin laoreet, nisi et iaculis auctor, ante metus malesuada lectus, non euismod nunc justo vel sapien. Integer et ante lectus. Integer ac est nec elit tristique suscipit. Duis auctor, libero at varius condimentum, nunc ante tristique eros, non pretium purus lorem a nunc. Vivamus tincidunt, neque et eleifend maximus, velit leo tincidunt orci, vel feugiat arcu eros eu magna. Sed id elit ut risus suscipit suscipit.
+
+\section{Resultados}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, lorem nec sollicitudin auctor, purus velit ultricies ligula, sit amet gravida sapien erat vel felis. Fusce eget efficitur metus. Integer tempor, tortor eu vestibulum interdum, arcu risus tempor ligula, a condimentum neque erat vel elit. Nulla vehicula odio quis sapien porttitor, non aliquet libero dapibus. Suspendisse potenti. Duis dictum leo ac felis vehicula, nec volutpat dui laoreet. Donec sollicitudin urna at turpis mollis tincidunt. Fusce feugiat, erat id luctus tempus, lectus ipsum iaculis neque, ut pretium ipsum libero sit amet turpis.
+
+\section{Discusión}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tincidunt nisl. In hac habitasse platea dictumst. Etiam efficitur bibendum nunc, at interdum nunc vehicula non. Integer venenatis metus ac lectus volutpat suscipit. Integer id maximus ligula, et cursus est. Aliquam erat volutpat. Donec malesuada et eros in faucibus. Nulla facilisi. Ut dapibus ligula at magna lacinia, non faucibus eros lacinia. Morbi vel nunc vitae metus gravida tincidunt eget et ante. Integer vestibulum lorem sed mauris viverra, et scelerisque ante pellentesque.
+
+\section{Conclusión}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ipsum libero. In mollis hendrerit dui, non vestibulum ligula rutrum in. Phasellus posuere ante id dolor placerat, vel vehicula nisl dictum. Quisque auctor, libero at pretium fringilla, sapien risus sodales velit, in euismod mi risus non justo. Etiam eget dolor at libero gravida tempus vel non ipsum. Nunc vitae diam eget nulla laoreet aliquam. Suspendisse vitae ante non elit fringilla interdum. Sed non metus et ante tristique viverra eget at lorem.
+
+\end{document}
